@@ -1,0 +1,17 @@
+; $Id: openpgp.info,v 1.1 2009/07/08 18:17:34 arto Exp $
+name = OpenPGP
+description = Provides support for the OpenPGP e-mail encryption standard.
+package = Cryptography
+dependencies[] = profile
+core = 7.x
+php = 5.2
+
+; Information added by drupal.org packaging script on 2009-09-18
+version = "7.x-1.0-beta1"
+core = "7.x"
+project = "openpgp"
+datestamp = "1253270758"
+
+; Files
+files[] = openpgp.inc
+files[] = openpgp.admin.inc
